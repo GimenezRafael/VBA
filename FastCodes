@@ -1,0 +1,39 @@
+'Colocar negrito
+Sub FormatoNegrito ()
+	Range ("C1").Font.Bold = True
+End Sub
+--------------------------------------------------
+'Colocar italico
+Sub FormatoItalico ()
+	Range ("C2").Font.Italico = True
+End Sub
+--------------------------------------------------
+'Alterar cor
+Sub FormatoCorFonte ()
+	Range ("C3").Font.Color = RGB(0, 0, 255)
+End Sub
+--------------------------------------------------
+'Alterar tamanho da fonte
+Sub FormatoDestaque ()
+	Range ("C4").Font.Size = 18
+End Sub
+--------------------------------------------------
+'Colocar destaque
+Sub FormatoDestaque ()
+	Range ("C5").Interior.Color = RGB (255, 18, 0)
+End Sub
+--------------------------------------------------
+'Colocar bordas
+Sub FormatoBordas ()
+	Range ("C6").Borders.Weight = xlThick
+	Range ("A1:D10").Borders.Color = RGB(255, 18, 0) 'nesse caso foi selecionado um intervalo e nao apenas uma celula
+End Sub
+--------------------------------------------------
+
+Cores
+Padrao RGB
+Tabela de códigos de cores RGB 🎨 (rapidtables.org)
+
+----------------------------------------------------
+'abrir janela de texto no meio da tela do excel
+Sub MsgBoxSemVariavel ()
